@@ -8,6 +8,7 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const refForm = useRef()
 
+    // Time it takes for text hover animation, timing changes based on second value
     useEffect(() => {
         setTimeout(() => {
             return setLetterClass('text-animate-hover')
