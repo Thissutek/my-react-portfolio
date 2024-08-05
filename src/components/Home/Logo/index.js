@@ -10,6 +10,8 @@ const Logo = () => {
     const outlineLogoRef = useRef();
     const solidLogoRef = useRef()
 
+
+    //Draw SVG Plugin
     useEffect(() => {
         gsap.registerPlugin(DrawSVGPlugin)
 
