@@ -1,6 +1,7 @@
 import './index.scss';
 import LogoS from '../../../assets/images/logo.png'
 import { useRef } from 'react';
+import Projects from '../../Projects';
 
 const Logo = () => {
 

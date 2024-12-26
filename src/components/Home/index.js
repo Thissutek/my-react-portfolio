@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import Logo from './Logo/'
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders'
+import Projects from '../Projects';
 
 
 const Home = () => {
@@ -41,6 +42,10 @@ const Home = () => {
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                 </div>
                 <Logo />
+                
+            </div>
+            <div className='container'>
+                <Projects />
             </div>
             <Loader type='pacman' />
         </>
