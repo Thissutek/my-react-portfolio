@@ -31,7 +31,20 @@
     overflow: hidden;
   
     border-radius: 28px;
+    opacity: 0;
+    animation: fadeInItem 1s forwards;
+    animation-delay: 4s;
   }
+
+  @keyframes fadeInItem {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
   .ag-courses-item_link {
     display: block;
     padding: 30px 20px;
