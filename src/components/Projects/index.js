@@ -7,7 +7,7 @@ const Projects = () => {
             <div class="ag-format-container">
             <div class="ag-courses_box">
                 <div class="ag-courses_item">
-                <a href="https://github.com/Thissutek/my-ecommerce-app" target='_blank' rel='noopener noreferrer' class="ag-courses-item_link" >
+                <a href="https://e-commerce-app-3m7a.onrender.com" target='_blank' rel='noopener noreferrer' class="ag-courses-item_link" >
                     <div class="ag-courses-item_bg"></div>
 
                     <div class="ag-courses-item_title">
